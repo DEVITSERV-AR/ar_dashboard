@@ -10,3 +10,4 @@ blinker
 tornado
 toml
 typing_extensions
+st-aggrid
