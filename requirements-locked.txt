@@ -1,0 +1,12 @@
+streamlit==1.38.0
+pandas==2.2.2
+plotly==5.22.0
+openpyxl
+numpy
+pytz
+python-dateutil
+packaging
+blinker
+tornado
+toml
+typing_extensions
