@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from st_aggrid import AgGrid, GridOptionsBuilder
+from st-aggrid import AgGrid, GridOptionsBuilder
 from datetime import datetime
 import io
 import os
@@ -595,3 +595,4 @@ c1.metric("Total Receivable", f"₹{total:,.2f}")
 c2.metric("Paid", f"₹{paid:,.2f}")
 c3.metric("Unpaid", f"₹{unpaid:,.2f}")
 c4.metric("Paid Ratio", f"{paid_ratio:.1f}%")
+
